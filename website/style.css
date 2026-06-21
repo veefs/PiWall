@@ -57,13 +57,17 @@ body {
 
 }
 
-
-
-
 .traffic-card {
 
     background: #1D1D1F;
     color: #5856D6;
 
+
+}
+
+.traffic-body-text {
+
+    color: #303033;
+    font-size: 1rem;
 
 }
