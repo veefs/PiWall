@@ -14,14 +14,51 @@ body {
 }
 
 .title-card-links {
-
     display: flex;
     gap: 30px;
-    color: #f4463d;
     font-size: 2rem;
     padding: 25px;
     margin-left: 20px
 }
+
+.title-card-links a {
+    color: #f4463d;
+    text-decoration: none;
+}
+
+.title-card-selected a {
+
+    color: #BC2131;
+    text-decoration: none;
+
+}
+
+.project-card {
+
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 25px;
+    margin-left: 20px
+
+}
+
+.project-card img {
+
+    margin-left: 20px;
+}
+
+.project-card a {
+
+    color: #1D1D1F;
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+
+
 
 .traffic-card {
 
