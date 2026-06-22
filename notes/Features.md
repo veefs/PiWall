@@ -15,3 +15,8 @@
 ## Firewall
 
 - Filter inbound and outbound features
+
+## Extension
+
+- Automatic device profiler which help you easily automatiocally profile what traffic is coming from which device
+- PiHole easily add PiHole to your project would help out a lot if it worked with AI and like auto configed everything
