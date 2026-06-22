@@ -12,28 +12,26 @@
 
 <body>
     <main>
+<div class="title-card">
+    <img src="logo.ico" alt="PiWall logo" class="title-icon">
+    <h1 class="title-text">PiWall</h1>
 
+    <div class="title-card-links">
+        <a href="index.html">Home</a>
+        <a>Config</a>
 
-
-        <div class="title-card">
-            <img src="logo.ico" alt="PiWall logo" class="title-icon">
-            <h1 class="title-text">PiWall</h1>
-
-            <div class="title-card-links">
-                <a href="index.html">Home</a>
-                <a>Config</a>
-
-                    <div class="title-card-selected">
-                <a href="./settings.html">Settings</a>
-                    </div>
-                <a href="./project.html">The Project</a>
-            </div>
+        <div class="title-card-selected">
+            <a href="./settings.html">Settings</a>
         </div>
+        <a href="./project.html">The Project</a>
+    </div>
+</div>
 
+<div class="settings-grid">
+
+    <div class="settings-section">
         <div class="separator-card">
-
-            <h1> General</h1>
-
+            <h2>General</h2>
         </div>
 
         <div class="setting-bar">
@@ -41,7 +39,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Firewall Enabled</h1>
+            <span>Firewall Enabled</span>
         </div>
 
         <div class="setting-bar">
@@ -49,38 +47,78 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Monitor Traffic Enabled</h1>
+            <span>Monitor Traffic Enabled</span>
         </div>
 
+        <div class="setting-bar">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span>Device Monitor Enabled</span>
+        </div>
+
+        <div class="setting-bar">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span>Malicious Monitor Enabled</span>
+        </div>
+
+        <div class="setting-bar">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span>AI Enabled</span>
+        </div>
+
+        <div class="setting-bar">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span>Extensions Enabled</span>
+        </div>
+
+    </div>
+
+    <div class="settings-section">
         <div class="separator-card">
-
-            <h1> Privacy & Security</h1>
-            
+            <h2>Privacy &amp; Security</h2>
         </div>
-
-
 
         <div class="setting-bar">
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Child Filter</h1>
-
+            <span>Child Filter</span>
         </div>
 
-                <div class="setting-bar">
+        <div class="setting-bar">
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Yubikey Verification</h1>
+            <span>Yubikey Verification</span>
         </div>
 
+        
+        <div class="setting-bar">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span>Auth Password Enabled</span>
+        </div>
+
+    </div>
+
+    <div class="settings-section">
         <div class="separator-card">
-
-            <h1> Webhooks </h1>
-            
+            <h2>Webhooks</h2>
         </div>
 
         <div class="setting-bar">
@@ -88,7 +126,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Discord Webhook Enabled</h1>
+            <span>Discord Webhook Enabled</span>
         </div>
 
         <div class="setting-bar">
@@ -96,7 +134,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Twillio Webhook Enabled</h1>
+            <span>Twilio Webhook Enabled</span>
         </div>
 
         <div class="setting-bar">
@@ -104,7 +142,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>AI Webhook Enabled</h1>
+            <span>AI Webhook Enabled</span>
         </div>
 
         <div class="setting-bar">
@@ -112,7 +150,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Get Webhook Enabled</h1>
+            <span>Get Webhook Enabled</span>
         </div>
 
         <div class="setting-bar">
@@ -120,8 +158,11 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <h1>Post Webhook Enabled</h1>
+            <span>Post Webhook Enabled</span>
         </div>
+    </div>
+
+</div>
 
     </main>
 </body>
