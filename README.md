@@ -4,13 +4,12 @@
 
 ## What is PiWall?
 
-Piwall is an opensource project that uses a raspberry pi 5b 16gb RAM in order to act as a fireawll. PiWall includes many features including:
+PiWall is an open-source project that uses a Raspberry Pi 5 (16GB RAM) to act as a firewall. PiWall includes several features:
 
-- `Web dashboard` A full web dashboard that allows you to configure things on the go! Hosted physically on the raspberry pi for 24-7 hosting. 
-- `Traffic Filtering` A c++ engine that allows you to filter traffic, block ports, etc.
-- `AI Features` A local AI model hosted on the raspberry pi that can do things such as configure settings and provide advice
-
+- **Web Dashboard** — A full web dashboard for configuring everything on the go, hosted directly on the Raspberry Pi for 24/7 access.
+- **Traffic Filtering** — A C++ engine for filtering traffic, blocking ports, and more.
+- **AI Features** — A local AI model hosted on the Raspberry Pi that can configure settings and provide advice.
 
 ## Why use PiWall?
 
-PiWall is spefically used to be more efficent than your regular PfSense configuration. In addition to this it's much easier to set up and requires a lot less technical skill especially with our AI bot.
+PiWall is designed to be easier to set up than something like PfSense, requiring much less technical know-how — especially with the built-in AI assistant to help configure things.
