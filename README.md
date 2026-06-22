@@ -4,7 +4,11 @@
 
 ## What is PiWall?
 
-Piwall is an opensource project that uses a raspberry pi 4b in order to act as a fireawll. It includes things like a web dashboard, network filtering, and more.
+Piwall is an opensource project that uses a raspberry pi 5b 16gb RAM in order to act as a fireawll. PiWall includes many features including:
+
+- `Web dashboard` A full web dashboard that allows you to configure things on the go! Hosted physically on the raspberry pi for 24-7 hosting. 
+- `Traffic Filtering`
+
 
 ## Why use PiWall?
 
