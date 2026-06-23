@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PiWall</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+
+        <div class="title-card">
+            <img src="logo.ico" alt="PiWall logo" class="title-icon">
+            <h1 class="title-text">PiWall</h1>
+
+            <div class="title-card-links">
+                <a href="index.html">Home</a>
+                <a href="./config.html">Config</a>
+                <a href="./settings.html">Settings</a>
+
+                <div class="title-card-selected">
+                    <a href="./extension.html">Extensions</a>
+                </div>
+
+                <a href="./project.html">The Project</a>
+
+            </div>
+        </div>
+
+        <div class="extension-grid">
+
+            <div class="extension-card">
+                <div class="extension-card-header">
+                    <div class="extension-icon-wrap">
+                        <svg class="extension-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="9"></circle>
+                            <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"></path>
+                        </svg>
+                    </div>
+                    <div class="extension-title-group">
+                        <h3 class="extension-name">Pi-hole</h3>
+                        <span class="extension-tagline">Block ads and trackers network-wide</span>
+                    </div>
+                </div>
+                <p class="extension-description">
+                    Intercepts DNS queries before they leave your network, stopping ad and tracker domains before a connection is ever made.
+                </p>
+                <button class="extension-install-btn">Install</button>
+            </div>
+
+            <div class="extension-card">
+                <div class="extension-card-header">
+                    <div class="extension-icon-wrap">
+                        <svg class="extension-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="4" y="11" width="16" height="9" rx="2"></rect>
+                            <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+                        </svg>
+                    </div>
+                    <div class="extension-title-group">
+                        <h3 class="extension-name">VPN</h3>
+                        <span class="extension-tagline">Route traffic through an encrypted tunnel</span>
+                    </div>
+                </div>
+                <p class="extension-description">
+                    Sends outbound traffic through a WireGuard tunnel so your ISP only sees encrypted traffic to your VPN provider, not the sites you visit.
+                </p>
+                <button class="extension-install-btn">Install</button>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
